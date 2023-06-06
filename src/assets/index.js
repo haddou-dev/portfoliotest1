@@ -26,6 +26,7 @@ import thingsfly from "./thingsfly.png";
 import todo from "./todo.jpg";
 import webdesign from "./webdesign.png";
 import writer from "./writer.png";
+import favIcon from "./favIcon.png";
 import headphones from "./headphones.png";
 import logodesign from "./logodesign.png";
 import whiteLogo from "./whiteLogo.png";
@@ -58,5 +59,7 @@ export {
   readytable,
   profilimg,
   passion,
-  logodesign,whiteLogo
+  logodesign,
+  whiteLogo,
+  favIcon,
 };

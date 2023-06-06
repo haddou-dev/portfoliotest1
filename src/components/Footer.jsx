@@ -24,7 +24,7 @@ const Footer = () => {
           </li>
         ))}
       </ul>
-      <p className="font-poppins font-normal cursor-pointer text-[16px] text-white ">
+      <p className="font-poppins font-normal cursor-pointer text-[16px] text-white  ">
         2023 company x,all right reserved.
       </p>
     </div>

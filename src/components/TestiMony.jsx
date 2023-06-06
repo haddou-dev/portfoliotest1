@@ -3,18 +3,22 @@
 import React from "react";
 import { CircleIcon, Title } from "../components";
 import { testimony } from "../assets";
+import styles from "../style";
 
 const TestiMony = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-4">
+    <div className="flex flex-col justify-center items-center gap-4 pb-12">
       <Title title="TestiMony" />
       <CircleIcon icon={testimony} />
-      <div className="flex flex-col justify-center items-center gap-2 mt-8">
-        <p>
+      <div className="flex flex-col justify-center items-center gap-2 mt-8 mb-12 w-[60%] ">
+        <p className="font-poppins font-normal cursor-pointer text-[16px] text-gray-800 text-center	 ">
           Le Lorem Ipsum est simplement du faux texte employé dans la
-          composition.
+          composition.Le Lorem Ipsum est simplement du faux texte employé dans
+          la composition.
         </p>
-        <h4>Web Developer</h4>
+        <p className="font-poppins font-normal cursor-pointer text-[16px] text-gray-800 font-semibold">
+          Mohamed Haddou , Web Developer
+        </p>
       </div>
     </div>
   );
