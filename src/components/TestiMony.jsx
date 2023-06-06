@@ -3,7 +3,7 @@
 import React from "react";
 import { CircleIcon, Title } from "../components";
 import { testimony } from "../assets";
-import styles from "../style";
+
 
 const TestiMony = () => {
   return (
@@ -16,7 +16,7 @@ const TestiMony = () => {
           composition.Le Lorem Ipsum est simplement du faux texte employé dans
           la composition.
         </p>
-        <p className="font-poppins font-normal cursor-pointer text-[16px] text-gray-800 font-semibold">
+        <p className="font-poppins cursor-pointer text-[16px] text-gray-800 font-semibold">
           Mohamed Haddou , Web Developer
         </p>
       </div>
